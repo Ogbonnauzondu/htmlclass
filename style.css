@@ -1,20 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,500;1,600&display=swap");
 body {
-    background-color: cadetblue;
+  background-color: cadetblue;
+  margin: 0;
+  padding: 0;
+  font-family: "Bebas Neue", sans-serif;
 }
-div, h1 {
-    background-color: brown;
+div,
+h1 {
+  background-color: brown;
+  font-weight: 400;
+  font-family: "Poppins";
+  font-size: 30px;
 }
 .font {
-    background-color: greenyellow;
-    color: chartreuse;
-    border: 5px solid greenyellow;
+  background-color: greenyellow;
+  color: chartreuse;
+  border: 5px solid greenyellow;
 }
-#unique{
-    background-color: greenyellow;
-    color: chartreuse;
-    border: 5px solid greenyellow;
+#unique {
+  background-color: greenyellow;
+  color: chartreuse;
+  border: 5px solid greenyellow;
 }
-kbd{
-    border: 1px solid grey;
-    background-color: gainsboro;
+kbd {
+  border: 1px solid grey;
+  background-color: gainsboro;
 }
