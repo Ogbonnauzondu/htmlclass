@@ -1,23 +1,144 @@
-body{
-    background-color: aquamarine;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,500;1,600&display=swap");
+
+body {
+  background-color: #fff;
+  font-family: "poppins";
+  /* background-image: url("bkg.jpg"); */
+  color: #2d2a2a;
+  font-size: 20px;
 }
-a{
-    color: black;
-    text-decoration: none;
+
+header {
+  display: flex;
+  background-color: #e3e3e3;
+  height: 150px;
+  margin: 0 0;
 }
-input, button{
-    width: 80%;
-    border: 1px solid #555;
-    padding: 5px;
+.nav {
+  margin-left: 500px;
 }
-button{
-    cursor: pointer;
+
+nav {
+  display: flex;
+  width: 40%;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  height: 50px;
+  margin-top: 50px;
 }
-.logo{
-    color: blueviolet;
-    font-size: 15px;
-    padding: 5px;
-    top: 0;
-    left: 0;
-    transition: 0.5s all ease;
+
+Main {
+  width: 80%;
+  display: grid;
+  justify-content: center;
+  margin-left: 10%;
+}
+button {
+  border-radius: 8px;
+  background-color: #980d7a;
+  width: 170px;
+  border: 0px solid #fff;
+  /*padding: 5px;
+   */:;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
+}
+button:hover {
+  background-color: transparent;
+  border: 1px solid #980d7a;
+  color: #980d7a;
+}
+.button a {
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+a :hover {
+  color: #980d7a;
+}
+button {
+  cursor: pointer;
+}
+.logo {
+  color: #980d7a;
+  font-size: 50px;
+  top: 0;
+  left: 0;
+  transition: 0.8s all ease;
+  margin-left: 10px;
+  -webkit-transition: 0.8s all ease;
+  -moz-transition: 0.8s all ease;
+  -ms-transition: 0.8s all ease;
+  -o-transition: 0.8s all ease;
+}
+h4 {
+  font-size: 25px;
+  font-family: "poppins";
+  color: #fff;
+}
+.more {
+  color: #980d7a;
+  text-decoration: none;
+}
+.form {
+}
+
+.forms {
+  
+  justify-content: center;
+  padding: 30px 120px;
+}
+.formd {
+  padding-top: 52px;
+}
+.formd {
+}
+.section {
+display: flex;
+  justify-content: center;
+  border: 2px solid #f506f5;
+  border-radius: 10px;
+  width: 30%;
+  height: 400px;
+  margin: 50px 30%; 
+  
+}
+.submitbtn{
+  background-color: #980d7a;
+  color: #fff;
+  font-family: "poppins";
+  font-size: 15px;
+  height: 30px;
+  /* padding: 2px 0px; */
+  padding-bottom: 5px;
+}
+.submitbtn :hover{
+  background-color: transparent;
+  border: 1px solid #980d7a;
+  color: #980d7a;
+}
+footer {
+  background-color: #980d7a;
+  color: #fff;
+  height: 150px;
+  padding: 10px;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footerbtn {
+  border: 1px solid #fff;
+  height: 30px;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: 15px;
+}
+.video{
+  display: flex;
+  justify-content: center;
+  margin: 5px 5px;
 }
