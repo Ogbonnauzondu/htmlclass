@@ -87,15 +87,39 @@ h4 {
 }
 
 .forms {
-  
+  display: flex;
   justify-content: center;
-  padding: 30px 120px;
+   padding: 30px 30px; 
+}
+
+input.email{
+    font:    16px "Helvetica",    "Arial",    "sans-serif";
+    border: 1px solid #980d7a;
+    height: 25px;
+    border-radius:8px ;
+    -webkit-border-radius:8px ;
+    -moz-border-radius:8px ;
+    -ms-border-radius:8px ;
+    -o-border-radius:8px ;
+}
+input.firstname{
+    font:    16px "Helvetica",    "Arial",    "sans-serif";
+    margin-top: 35px;
+    border: 1px solid #980d7a;
+    border-radius:8px ;
+    height: 25px;
+    -webkit-border-radius:8px ;
+    -moz-border-radius:8px ;
+    -ms-border-radius:8px ;
+    -o-border-radius:8px ;
 }
 .formd {
-  padding-top: 52px;
+  padding-top:0px;
 }
-.formd {
+.frm {
+  margin-top: 5000px;
 }
+
 .section {
 display: flex;
   justify-content: center;
@@ -103,7 +127,8 @@ display: flex;
   border-radius: 10px;
   width: 30%;
   height: 400px;
-  margin: 50px 30%; 
+  margin: 50px 35%; 
+  background-color: #f5f5f5;
   
 }
 .submitbtn{
